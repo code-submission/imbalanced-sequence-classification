@@ -1,9 +1,14 @@
 
 ## Table of Contents
+* Dependencies
 * Data
 * Baseline Models
 * GAN Based Models
 * ADASYN with Autoencoder Models
+
+## Dependencies
+Tensorflow 1.12.0 (and all dependencies)
+Keras 2.1.5 (and all dependencies)
 
 ## Data 
 Models were evaluated on two public datasets and these datasets are available [link-redacted-for-anonymity]. The data is too large to be stored in github and can be made available after publication. The file norm-sentiment-0.01.tar.gz refers to the sentiment dataset with 1% imbalance and the norm-sentiment-0.05.tar.gz is the sentiment dataset with 5% imbalance. Each .zip file contains the ensembled training data, validation and test data. Minority and majority data is also included to train GAN and autoencoder models for the oversampling methods described in the paper. All data files are stored as numpy arrays.
